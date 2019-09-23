@@ -1,7 +1,7 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  background-color: #5E4485;
+  background-color: #bfbfbf;
   color: #FFF;
   padding: 1% 0;
   font-size: 1.2em;
@@ -15,7 +15,7 @@
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
   color: #FFF;
-  background-color: #5E4485;
+  background-color: #bfbfbf;
 }
 .navbar-inverse .navbar-nav li a {
   color: #D5D5D5;
@@ -36,9 +36,6 @@
   .carousel-caption {
     display: none;
   }
-  #icon {
-    max-width: 150px;
-  }
   h2 {
     font-size: 1.7em;
   }
@@ -49,4 +46,40 @@
 #icon {
   max-width: 200px;
   margin: 1% auto;
+}
+footer {
+  width: 100%;
+  background-color: #bfbfbf;
+  padding: 5%;
+  color: #FFF;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+#destiny-logo {
+  height: 130%;
+}
+#hunter {
+  max-height: 150px;
+}
+#warlock {
+  max-height: 140px;
+}
+#titan {
+  max-height: 150px;
+}
+.logo {
+  height: 150px;
 }
